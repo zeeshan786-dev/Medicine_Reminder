@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "medicine_reminder",
-    "slug": "medicine_reminder",
+    "slug": "medreminder",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/medicin.png",
     "scheme": "medicinereminder",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.zeeshan_123.medicine_reminder"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7325a9bf-2040-4aca-beec-56653fdea6bb"
+      }
+    },
+    "owner": "zeeshan_123"
   }
 }
